@@ -1,0 +1,14 @@
+net: "/home/neelisha/Documents/vidooly/kiss/model/deploy_yahoo.prototxt"
+test_iter: 100
+test_interval: 300
+base_lr: 0.0001
+lr_policy: "step"
+gamma: 0.01
+stepsize: 2500
+display: 10
+max_iter: 10000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 1000
+snapshot_prefix: "../output/caffe_kiss_model_1/caffe_kiss_model_1"
+solver_mode: CPU
